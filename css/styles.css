@@ -1,0 +1,12 @@
+img{
+    width: 100vw;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  p.services{
+      color: white;
+  }
