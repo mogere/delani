@@ -7,6 +7,6 @@ img{
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  p.services{
+  p.centered{
       color: white;
   }
