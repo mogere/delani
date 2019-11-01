@@ -1,12 +1,26 @@
-img{
+body{
+    margin: 0px;
+}
+.container-fluid{
+    padding: 0px;
+}
+.back{
     width: 100vw;
+    height: 600px;
+    padding: 0px;
+}
+#service-img{
+    padding-left:100px ;
+    width: 100vw;
+    height: 300px;
+    padding: 0px;
 }
 .centered {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  p.centered{
-      color: white;
-  }
+ .white{
+     color: white;
+ } 
