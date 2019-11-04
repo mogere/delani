@@ -16,8 +16,10 @@ $(document).ready(function(){
     $(".text-desc").hide();
 
     $("#work1").hover(function(){
+        $(".p1").fadeIn();
         $(".p1").show();
     }, function(){
+        $(".p1").fadeOut();
         $(".p1").hide();
     });
 });
