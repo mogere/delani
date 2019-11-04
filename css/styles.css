@@ -59,3 +59,12 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .text-desc{
+      position: absolute;
+      top: 50%;
+      color: white;
+      left: 45%;
+      transform: translate(-50%, -50%);
+      border-style: solid;
+      padding: 5px;
+  }

@@ -13,9 +13,11 @@ $(document).ready(function(){
         $("#pj-desc").toggle();
     });
 
-    $(".row-portfolio").hover(function(){
+    $(".text-desc").hide();
 
-    })
+    $(".row-portfolio").hover(function(){
+        $(".p1").show();
+    });
 });
 
 function clicked(){
