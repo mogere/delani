@@ -5,11 +5,11 @@ $(document).ready(function(){
         $("#design-desc").toggle();
         $("#design").toggle();
     });
-    $("#dev").click(function(){
+    $("#dev, #dev-desc").click(function(){
         $("#dev").toggle();
         $("#dev-desc").toggle();
     });
-    $("#pj").click(function(){
+    $("#pj, #pj-desc").click(function(){
         $("#pj").toggle();
         $("#pj-desc").toggle();
     });
