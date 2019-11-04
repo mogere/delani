@@ -17,6 +17,7 @@ $(document).ready(function(){
 
     $(".row-portfolio").hover(function(){
         $(".p1").show();
+        $(".p1").hide();
     });
 });
 
