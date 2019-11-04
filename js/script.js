@@ -15,8 +15,9 @@ $(document).ready(function(){
 
     $(".text-desc").hide();
 
-    $(".row-portfolio").hover(function(){
+    $("#work1").hover(function(){
         $(".p1").show();
+    }, function(){
         $(".p1").hide();
     });
 });

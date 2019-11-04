@@ -12,7 +12,7 @@ Link to site https://mogere.github.io/delani
 |potfolio | List of projects undertaken
 
 ### Landing page
-
+![Landing page](img/landing.png)
 
 
 ### Technologies used 
