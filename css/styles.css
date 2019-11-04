@@ -24,7 +24,7 @@ body{
      color: white;
  } 
  .about{
-     padding-left: 110px;
+     padding-left: 80px;
      margin: 40px;
  }
  .col-md-3{
@@ -39,3 +39,17 @@ body{
      margin: 50px;
      padding: 20px;
  }
+ .what{
+     margin: 50px;
+ }
+ .portfolio{
+     padding: 20px;
+     margin: 50px;
+ }
+ .centered-contact {
+     color: white;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
