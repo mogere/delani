@@ -1,6 +1,5 @@
 $(document).ready(function(){
     $(".hidden").hide();
-
     $("#design, #design-desc").click(function(){
         $("#design-desc").toggle();
         $("#design").toggle();
@@ -22,4 +21,5 @@ $(document).ready(function(){
 function clicked(){
     var name=document.getElementById("name").value;
     alert("Thank you "+ name +"; We have received your message");
+    event.preventDefault();
 }
