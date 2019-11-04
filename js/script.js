@@ -1,15 +1,25 @@
 $(document).ready(function(){
-    // $(".hidden").hide();
+    $(".hidden").hide();
+
     $("#design").click(function(){
-        $("#design").hide();
         $("#design-desc").toggle();
+        $("#design").toggle();
     });
     $("#dev").click(function(){
-        $("#dev").hide();
+        $("#dev").toggle();
         $("#dev-desc").toggle();
     });
     $("#pj").click(function(){
-        $("#pj").hide();
+        $("#pj").toggle();
         $("#pj-desc").toggle();
     });
+
+    $(".row-portfolio").hover(function(){
+
+    })
 });
+
+function clicked(){
+    var name=document.getElementById("name").value;
+    alert("Thank you "+ name +"; We have received your message");
+}

@@ -57,7 +57,7 @@
                     <img src="img/services_icons/design_icon.png">
                     <p>DESIGN</p>
                  </div>
-                 <div class = "col-md-4" id="design-desc">
+                 <div class = "col-md-4 hidden" id="design-desc">
                         <p>DESIGN</p>
                         <p>Our design practice offers a full range of services including brand strategy,
                              interaction and visual design and user experience testing.<br>
@@ -66,10 +66,10 @@
                            sure what gets built is what is needed.</p>
                      </div>
                 <div class = "col-md-4" id="dev">
-                    <img src="img/services_icons/product_icon.png">
+                    <img src="img/services_icons/dev_icon.png">
                     <p>DEVELOPMENT</p>
                 </div>
-                <div class = "col-md-4" id="dev-desc">
+                <div class = "col-md-4 hidden" id="dev-desc">
                         <p>DEVELOPMENT</p>
                         <p>All engineers are fluent in the latest enterprise, mobile and web development
                              technologies.<br>
@@ -77,10 +77,10 @@
                             using proven practices such as test-driven development and pair programming.</p>
                     </div>
                 <div class = "col-md-4" id="pj">
-                    <img src="img/services_icons/design_icon.png">
+                    <img src="img/services_icons/product_icon.png">
                     <p>PROJECT MANAGEMENT</p>
                 </div>
-                <div class = "col-md-4" id="pj-desc">
+                <div class = "col-md-4 hidden" id="pj-desc">
                         <p>PROJECT MANAGEMENT</p>
                         <p>All engineers are fluent in the latest enterprise, mobile and web development 
                             technologies.
@@ -88,30 +88,6 @@
                            using proven practices such as test-driven development and pair programming.</p>
                     </div>
             </div>
-            <!-- <div class = "row text-center what" id="hidden">                 
-                    <div class = "col-md-4">
-                        <p>DESIGN</p>
-                        <p>Our design practice offers a full range of services including brand strategy,
-                             interaction and visual design and user experience testing.<br>
-                           Throughout your project, our designers create and implement visual 
-                           design and workflows, solicit user feedback and work with you to make 
-                           sure what gets built is what is needed.</p>
-                     </div>
-                    <div class = "col-md-4">
-                        <p>DEVELOPMENT</p>
-                        <p>All engineers are fluent in the latest enterprise, mobile and web development
-                             technologies.<br>
-                            They collaborate with your team to write, and improve code on a daily basis, 
-                            using proven practices such as test-driven development and pair programming.</p>
-                    </div>
-                    <div class = "col-md-4">
-                        <p>PROJECT MANAGEMENT</p>
-                        <p>All engineers are fluent in the latest enterprise, mobile and web development 
-                            technologies.
-                           They collaborate with your team to write, and improve code on a daily basis, 
-                           using proven practices such as test-driven development and pair programming.</p>
-                    </div>
-                </div> -->
             <div class="row ">
                 <div class="col-md-12 text-center">
                     <h2>PORTFOLIO</h2>
@@ -154,7 +130,7 @@
                             <input type="text" id="name" placeholder="Name..." size="25">
                             <input type="text" id="email" placeholder="Email..." size="25"><br><br>
                             <textarea type="text"  rows="4" cols="52" placeholder="Your message here..."size="350"></textarea><br>
-                            <button type="submit" name="Send">Send</button>
+                            <button type="submit" name="Send" onclick="clicked()">Send</button>
                         </form>
                     </div>
                 </div>
