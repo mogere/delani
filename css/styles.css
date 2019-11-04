@@ -24,7 +24,7 @@ body{
      color: white;
  } 
  .about{
-     padding-left: 80px;
+     padding-left: 60px;
      margin: 40px;
  }
  .col-md-3{
@@ -44,12 +44,18 @@ body{
  }
  .portfolio{
      padding: 20px;
-     margin: 50px;
+     margin: 20px;
  }
  .centered-contact {
-     color: white;
+    color: white;
     position: absolute;
     top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #centered-form {
+    position: absolute;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
